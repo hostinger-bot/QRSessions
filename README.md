@@ -2,7 +2,7 @@
 
 
 ## QRSessions
-> Sessions Multi Auth with baileys multi auth 
+> Untuk mengambil sessions multi auth atau mutliple sessions
 
 ## Baileys Md 
 > Menggunakan baileys md 
