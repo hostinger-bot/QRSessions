@@ -1,7 +1,7 @@
 
 
 var {
-    default: makeWASocket, 
+    default: WASocket, 
     fetchLatestBaileysVersion, 
     MessageRetryMap, 
     useMultiFileAuthState, 
@@ -22,7 +22,7 @@ var startSock = async() => {
                } = await fetchLatestBaileysVersion()
 	console.log(`using WA v${version.join('.')}, isLatest: ${isLatest}`)
 	
-    const sock = makeWASocket({
+    const sock = WASocket({
 		version,
 		logger: P({ level: 'silent' }),
 		printQRInTerminal: true,
