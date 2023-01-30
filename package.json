@@ -1,7 +1,7 @@
 {
   "main": "botcahx.js",
   "dependencies": {
-    "@api/whatsapp": "github:BOTCAHX/baileys",
+    "@api/whatsapp": "github:hostinger-bot/baileys",
     "express": "latest",
     "qrcode-terminal": "latest"
   }
