@@ -11,6 +11,6 @@
 ```
 $ git clone https://github.com/BOTCAHX/QRSessions
 $ cd QRSessions
-$ npm start
+$ node .
 
 ```
