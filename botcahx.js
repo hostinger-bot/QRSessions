@@ -6,7 +6,7 @@ var {
     DisconnectReason, 
     delay
 } = require('@api/whatsapp')
-let pino = require('pino')
+var pino = require('pino')
 const msgRetryCounterMap = MessageRetryMap || { }
 
 var startSock = async() => {
