@@ -5,7 +5,7 @@
 > Untuk mengambil sessions multi auth atau mutliple sessions
 
 ## Baileys Md 
-> Menggunakan baileys md 
+> Menggunakan Baileys Api Whatsapp 
 
 ## Instalasi Package 
 ```
