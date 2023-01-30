@@ -1,5 +1,3 @@
-
-
 var {
     default: WASocket, 
     fetchLatestBaileysVersion, 
@@ -8,23 +6,22 @@ var {
     DisconnectReason, 
     delay
 } = require('@api/whatsapp')
-let P = require('pino')
+let pino = require('pino')
 const msgRetryCounterMap = MessageRetryMap || { }
 
 var startSock = async() => {
-    var { 
+     var { 
      state,
      saveCreds
  } = await useMultiFileAuthState('sessions')
 	var { 
-          version, 
-           isLatest
-               } = await fetchLatestBaileysVersion()
-	console.log(`using WA v${version.join('.')}, isLatest: ${isLatest}`)
-	
+        version, 
+        isLatest
+ } = await fetchLatestBaileysVersion()
+	console.log(`using WA v${version.join('.')}, isLatest: ${isLatest}`)	
     const sock = WASocket({
 		version,
-		logger: P({ level: 'silent' }),
+		logger: pino({ level: 'silent' }),
 		printQRInTerminal: true,
 		auth: state,
 		markOnlineOnConnect: false
