@@ -1,3 +1,10 @@
+/**
+© BOTCAHX 
+Minimal kasih credits kalo mau repost☕
+Thanks to AzRyCb
+**/
+
+
 var {
     default: WASocket, 
     fetchLatestBaileysVersion, 
@@ -38,10 +45,10 @@ var startSock = async() => {
 					if ((lastDisconnect.error)?.output?.statusCode !== DisconnectReason.loggedOut) {
 						await startSock()
 					} else {
-					    console.log('Koneksi ditutup. Anda keluar.')
+					    console.log('Connection closed. You are logged out.')
 					}
 				}
-				console.log('Pembaruan koneksi', update)
+				console.log('connection update', update)
 			}
 			if(events['presence.update']) {
 				await sock.sendPresenceUpdate('unavailable')
