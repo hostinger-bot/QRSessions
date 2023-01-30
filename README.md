@@ -6,3 +6,11 @@
 
 ## Baileys Md 
 > Menggunakan baileys md 
+
+## Instalasi Package 
+```
+$ git clone https://github.com/BOTCAHX/QRSessions
+$ cd QRSessions
+$ npm start
+
+```
