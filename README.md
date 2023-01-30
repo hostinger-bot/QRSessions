@@ -1,7 +1,7 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 
-## QRSessions
+## Sessions Multi
 > Untuk mengambil sessions multi auth atau mutliple sessions
 
 ## Baileys Md 
@@ -9,8 +9,8 @@
 
 ## Instalasi Package 
 ```
-$ git clone https://github.com/BOTCAHX/QRSessions
-$ cd QRSessions
+$ git clone https://github.com/BOTCAHX/Session-Multi
+$ cd Session-Multi
 $ node .
 
 ```
