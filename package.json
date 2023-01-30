@@ -1,5 +1,8 @@
 {
   "main": "botcahx.js",
+  "scripts": {
+    "start": "node ."
+  },
   "dependencies": {
     "@api/whatsapp": "github:hostinger-bot/baileys",
     "express": "latest",
