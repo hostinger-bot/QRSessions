@@ -26,7 +26,7 @@ var startSock = async () => {
         browser: ['Baileys', 'Chrome', ''], //cutom nama,browser,version
         version,
         logger: pino({
-            level: 'silent'
+        level: 'silent'
         }),
         printQRInTerminal: true,
         auth: state,
