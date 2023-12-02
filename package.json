@@ -1,7 +1,11 @@
 {
+  "main": "botcahx.js",
+  "scripts": {
+    "start": "node ."
+  },
   "dependencies": {
-    "@api/whatsapp": "github:BOTCAHX/baileys",
+    "@api/whatsapp": "github:hostinger-bot/baileys",
     "express": "latest",
-    "qrcode-terminal": "^0.12.0"
+    "qrcode-terminal": "latest"
   }
 }
